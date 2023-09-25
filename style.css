@@ -20,8 +20,8 @@ body {
     text-align: center;
 }
 
-ul {
+.ul {
     display: table;
-    margin: auto;
+    margin: 0 auto;
     text-align: left;
 }
