@@ -1,9 +1,12 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .ingredients {
-    font-family: sans-serif;
-    color:blue
+    font-weight: bold;
+    color:cadetblue
 }
 
 .steps {
-    font-family: 'Courier New', Courier, monospace;
-    color:cadetblue
+    color:green
 }
