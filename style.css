@@ -1,7 +1,9 @@
 .ingredients {
     font-family: sans-serif;
+    color:blue
 }
 
 .steps {
     font-family: 'Courier New', Courier, monospace;
+    color:cadetblue
 }
