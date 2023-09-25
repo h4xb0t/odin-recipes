@@ -5,9 +5,11 @@ body {
 
 .ingredients {
     font-weight: bold;
-    color:cadetblue
+    font-size: medium;
+    color:black
 }
 
 .steps {
-    color:green
+    font-size: large;
+    color:brown
 }
