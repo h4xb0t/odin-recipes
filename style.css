@@ -6,17 +6,22 @@ body {
 .ingredients {
     font-weight: bold;
     font-size: medium;
-    color:black
+    color: black
 }
 
 .steps {
     font-size: large;
-    color:brown
+    color: brown
 }
 
 .centered {
     margin: auto;
     padding: 10px;
     text-align: center;
-    list-style-position: inside;
+}
+
+ul {
+    display: table;
+    margin: auto;
+    text-align: left;
 }
