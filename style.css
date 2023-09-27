@@ -24,12 +24,23 @@ header {
     font-size: 24px;
 }
 
-a {
+a:link {
     text-decoration: none;
+    color: inherit;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+    color: rgb(41, 3, 3);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(41, 3, 3);
 }
 
 nav {
