@@ -85,16 +85,16 @@ body {
     background-color: darkgray;
 } */
 
-/* .ingredients {
+.ingredients {
     font-weight: bold;
     font-size: medium;
     color: black
-} */
+}
 
-/* .steps {
+.steps {
     font-size: large;
     color: brown
-} */
+}
 
 .centered {
     margin: auto;
@@ -114,7 +114,7 @@ img {
 }
 
 .smallimg {
-    max-width: 40%;
+    max-width: 45%;
     height: auto;
 }
 
