@@ -16,16 +16,17 @@ body {
 
 /* Styling the header */
 header {
-    background: #50b3a2;
-    color: white;
+    background: #c0780c;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 1rem 0;
 }
 
-header a {
+/* header a {
     color: #ffffff;
     text-decoration: none; /* Removes underlines from links */
-}
+} */
+
 
 /* Main content area */
 .main {
@@ -119,3 +120,23 @@ img {
 }
 
 
+nav {
+    text-decoration: none; /* Removes underlines from links */
+}
+
+.layout {
+    width: 1366px;
+    height: 768px;
+  
+    display: grid;
+    grid:
+      "header" auto
+      "main" 1fr
+      "footer" auto
+      / 1fr;
+    gap: 8px;
+  }
+  
+  .header { grid-area: header; }
+  .main { grid-area: main; }
+  .footer { grid-area: footer; }
