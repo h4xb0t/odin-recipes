@@ -1,18 +1,100 @@
+/* Reset some default padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Makes it easier to work with widths (including padding and border) */
+}
+
+/* Set a default background color and font for the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Styling the header */
+header {
+    background: #50b3a2;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none; /* Removes underlines from links */
+}
+
+/* Main content area */
+.main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto; /* centers main content if its width is less than user's device */
+}
+
+/* A basic card style */
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* A slight shadow for depth */
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* A larger shadow for a "lift" effect on hover */
+}
+
+/* A utility class for buttons */
+.btn {
+    display: inline-block;
+    background: #50b3a2;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #338773;
+}
+
+/* Floating an image to the right */
+.img-float-right {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+/* Responsive media query example */
+@media screen and (max-width: 768px) {
+    .main {
+        padding: 10px;
+    }
+}
+
+
+
+
+/* 
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: darkgray;
-}
+} */
 
-.ingredients {
+/* .ingredients {
     font-weight: bold;
     font-size: medium;
     color: black
-}
+} */
 
-.steps {
+/* .steps {
     font-size: large;
     color: brown
-}
+} */
 
 .centered {
     margin: auto;
@@ -32,6 +114,8 @@ img {
 }
 
 .smallimg {
-    max-width: 25%;
+    max-width: 40%;
     height: auto;
 }
+
+
