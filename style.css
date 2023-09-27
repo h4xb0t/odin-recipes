@@ -107,16 +107,15 @@ body {
     background-color: darkgray;
 } */
 
-/* .ingredients {
-    font-weight: bold;
-    font-size: medium;
-    color: black
+.ingredients {
+    font-style: unset;
+    text-align: center;
 }
 
 .steps {
-    font-size: large;
-    color: brown
-} */
+    font-weight: bold;
+    text-align: center;
+}
 
 .centered {
     margin: auto;
@@ -126,7 +125,13 @@ body {
 
 .ul {
     display: table;
-    margin: 0 auto;
+    margin: 10 auto;
+    text-align: left;
+}
+
+.ol {
+    display: table;
+    margin: 10 auto;
     text-align: left;
 }
 
