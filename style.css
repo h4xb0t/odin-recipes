@@ -146,7 +146,7 @@ img {
 }
 
 
-.layout {
+/* .layout {
     width: 1366px;
     height: 768px;
   
@@ -161,4 +161,4 @@ img {
   
   .header { grid-area: header; }
   .main { grid-area: main; }
-  .footer { grid-area: footer; }
+  .footer { grid-area: footer; } */
