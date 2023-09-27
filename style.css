@@ -5,11 +5,28 @@
     box-sizing: border-box; /* Makes it easier to work with widths (including padding and border) */
 }
 
+
+/* .first-color { 
+	background: #394a51; 
+}
+	
+.second-color { 
+	background: #7fa99b; 
+}
+
+.third-color { 
+	background: #fbf2d5; 
+}
+
+.fourth-color { 
+	background: #fdc57b; 
+} */
+
 /* Set a default background color and font for the entire page */
 body {
     font-family: 'Arial', sans-serif;
     font-size: 16px;
-    background-color: #979638;
+    background-color: #fbf2d5;
     color: #333;
     line-height: 1.6;
     text-decoration: none;
@@ -17,7 +34,7 @@ body {
 
 /* Styling the header */
 header {
-    background: #cebda4;
+    background: #fdc57b;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 1rem 0;
